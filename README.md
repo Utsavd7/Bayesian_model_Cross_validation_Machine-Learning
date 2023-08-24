@@ -19,9 +19,13 @@ Here, P (B) is evidence probability. It is used to normalize the result. It rema
 _**2. Import libraries**_
 
 import numpy as np # linear algebra
+
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
 import matplotlib.pyplot as plt # for data visualization purposes
+
 import seaborn as sns # for statistical data visualization
+
 %matplotlib inline
 
 
