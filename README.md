@@ -28,13 +28,12 @@ import seaborn as sns # for statistical data visualization
 _**3. Check accuracy score**_
 
 1) Model accuracy score: 0.8057
-
-Training set score: 0.8072
-Test set score: 0.8057
+2) Training set score: 0.8072
+3) Test set score: 0.8057
 
 So, there is no sign of overfitting.
 
-Null accuracy score: 0.7582
+4) Null accuracy score: 0.7582
 
 We can see that our model accuracy score is 0.8083 but null accuracy score is 0.7582. So, we can conclude that our Gaussian Naive Bayes Classification model is doing a very good job in predicting the class labels.
 
@@ -50,24 +49,19 @@ Confusion matrix
  [[8992 2146]
  [ 701 2814]]
 
-True Positives(TP) =  8992
-
-True Negatives(TN) =  2814
-
-False Positives(FP) =  2146
-
-False Negatives(FN) =  701
+1) True Positives(TP) =  8992
+2) True Negatives(TN) =  2814
+3) False Positives(FP) =  2146
+4) False Negatives(FN) =  701
+   
 The confusion matrix shows 5999 + 1897 = 7896 correct predictions and 1408 + 465 = 1873 incorrect predictions.
 
 In this case, we have
 
-True Positives (Actual Positive:1 and Predict Positive:1) - 5999
-
-True Negatives (Actual Negative:0 and Predict Negative:0) - 1897
-
-False Positives (Actual Negative:0 but Predict Positive:1) - 1408 (Type I error)
-
-False Negatives (Actual Positive:1 but Predict Negative:0) - 465 (Type II error)
+1) True Positives (Actual Positive:1 and Predict Positive:1) - 5999
+2) True Negatives (Actual Negative:0 and Predict Negative:0) - 1897
+3) False Positives (Actual Negative:0 but Predict Positive:1) - 1408 (Type I error)
+4) False Negatives (Actual Positive:1 but Predict Negative:0) - 465 (Type II error)
 
 ![download](https://github.com/Utsavd7/Bayesian_model_Cross_validation_Machine-Learning/assets/46219693/0d613c57-d8f4-4068-a2f7-8873c71aee3e)
 
