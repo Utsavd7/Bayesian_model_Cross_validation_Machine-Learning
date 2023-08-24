@@ -27,7 +27,7 @@ import seaborn as sns # for statistical data visualization
 
 _**3. Check accuracy score**_
 
-Model accuracy score: 0.8057
+1) Model accuracy score: 0.8057
 
 Training set score: 0.8072
 Test set score: 0.8057
