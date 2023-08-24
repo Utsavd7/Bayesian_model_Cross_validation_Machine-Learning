@@ -1,6 +1,6 @@
 # Bayesian_model_Cross_validation_Machine-Learning
 
-**1. Overview**
+_**1. Overview**_
 
 Naïve Bayes Classifier uses the Bayes’ theorem to predict membership probabilities for each class such as the probability that a given record or data point belongs to a particular class. The class with the highest probability is considered the most likely class. This is also known as the Maximum A Posteriori (MAP).
 
@@ -16,7 +16,7 @@ MAP (A)
 Here, P (B) is evidence probability. It is used to normalize the result. It remains the same, So, removing it would not affect the result.
 
 
-**2. Import libraries**
+_**2. Import libraries**_
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -25,7 +25,7 @@ import seaborn as sns # for statistical data visualization
 %matplotlib inline
 
 
-**3. Check accuracy score**
+_**3. Check accuracy score**_
 
 Model accuracy score: 0.8057
 
@@ -43,7 +43,7 @@ Now, based on the above analysis we can conclude that our classification model a
 But, it does not give the underlying distribution of values. Also, it does not tell anything about the type of errors our classifier is making.
 
 
-**4. Confusion matrix**
+_**4. Confusion matrix**_
 
 Confusion matrix
 
